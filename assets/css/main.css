@@ -1,0 +1,150 @@
+
+       
+/*body color */
+body{
+    color: #6c757d;
+}
+/* for links */
+a{text-decoration: none;}
+.fa_header_link_primary{
+    color: #212121;
+}
+.secondry-color{
+    color: #bf0077;
+}
+.third-color{
+    color: #573e77;
+}
+.fa_header_link_primary.active{
+    color: #bf0077;
+}
+.no-underline{
+    text-decoration: none;
+}
+
+.fa_greybg{
+    background-color: #f2f2f4;
+}
+
+.container-md{
+   max-width: 1100px;
+}
+.mega-menu{
+   width: 50%;
+}
+.fa_header a{
+text-decoration: none;
+}
+
+.fa_header_rightmnu .col-md-4:last-child{
+    border-left: 1px solid #ccc;
+}
+
+
+/* for cart itemmenu */
+.cart-items .cart-items-list{
+    cursor: pointer;
+    width: 12.666667%;
+}
+span.cart_menu_icon{
+    margin-right: 13px;
+}
+span.cart_menu_icon:before {
+    content: "1";
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #bf0077;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    font-size: 12px;
+    border-radius: 360px;
+    margin-left: 11px;
+    margin-top: -4px;
+}
+
+
+
+.banner.container-fluid{
+    padding: 0; margin: 0;
+    padding-top: 1.5em;
+}
+.banner img{width: 100%;}
+
+
+
+
+.fa_greybg_card img{
+    width: 100%;
+}
+
+.fa_grey_card_tab{
+    background-color: #c00079;
+    color: #fff;
+}
+
+.fa_grey_card_tab .fa-plus{
+    font-size: 22px;
+}
+.fa_grey_card_tab .float-right{
+    cursor: pointer;
+    vertical-align: middle;
+    line-height: 2.3;
+}
+
+
+.fa_footer .list-group .list-group-item{
+    border:none !important;
+}
+
+.whitecard{
+    background-color: #fff;
+}
+
+.btn-primary{
+    background: #c00079;
+color: #fff;
+border: 0;
+padding: 4px 11px;
+}
+
+
+/*last minute fixes*/
+.fa_greybg_do.pt-4.pb-4 {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+main{
+    background-color: #f2f2f4;
+}
+
+
+@media(max-width:768px){
+    .mega-menu{
+        width: 100%;
+        text-align: center;
+    }
+    .list-group-horizontal{
+        flex-direction: column;
+    }
+
+    .cart-items .cart-items-list{
+        width: auto;
+    }
+
+    .fa_grey_card_tab .row{
+        position: relative;
+    }
+    .fa_grey_card_tab .row .col-md-auto{
+        position: absolute;
+        right: 10px;
+        width: 47px;
+    }
+
+    .fa_header_rightmnu .col-md-4:last-child{
+        border:0;
+    }
+}
